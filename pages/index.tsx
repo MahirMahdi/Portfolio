@@ -82,6 +82,9 @@ export default function Home() {
   const HiMenuAlt3 = getIcon("HiMenuAlt3");
   const IoClose = getIcon("IoClose");
   const HiArrowUp = getIcon("HiArrowUp");
+  const SiLinkedin = getIcon("SiLinkedin");
+  const SiGithub = getIcon("SiGithub");
+  const SiTwitter = getIcon("SiTwitter");
 
   return (
     <>
@@ -230,6 +233,20 @@ export default function Home() {
                 reality will take me next. I hope we can work together to build
                 something amazing.
               </p>
+              <div className="w-fit gap-x-4 text-[20px] flex items-center">
+                <Link href="https://github.com/MahirMahdi" target="_blank">
+                  <SiGithub className="hover:text-cyan-700" />
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/mahirmahdi/"
+                  target="_blank"
+                >
+                  <SiLinkedin className="hover:text-cyan-700" />
+                </Link>
+                <Link href="https://twitter.com/_MahirMahdi" target="_blank">
+                  <SiTwitter className="hover:text-cyan-700" />
+                </Link>
+              </div>
             </div>
             <Image
               src={dp}
