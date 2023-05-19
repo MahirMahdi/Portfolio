@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-hex: #ffffff;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: var(--background-hex);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #64748b;
+  border-radius: 15px;
+}
