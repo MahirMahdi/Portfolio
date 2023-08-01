@@ -322,7 +322,7 @@ const project_data = [
     plataserv_description,
     ["React", "Express", "Node.js", "MongoDB", "Chakra UI", "Imagekit"],
     "https://github.com/MahirMahdi/PlataServ/tree/v2.0",
-    "https://github.com/MahirMahdi/PlataServ/tree/v2.0"
+    "https://plataserv.netlify.app/"
   ),
   new Project(
     true,
