@@ -5,6 +5,7 @@ import PageHead from "@/components/PageHead";
 import Logo from "@/components/Logo";
 import getIcon from "@/components/Icon";
 import plataservImage from "../assets/plataserv.png";
+import rapplyImage from "../assets/rapply.png";
 import bazingaImage from "../assets/bazinga.png";
 import bingehubImage from "../assets/bingehub.png";
 import ProjectCard, { Project } from "@/components/ProjectCard";
@@ -292,6 +293,16 @@ const plataserv_description = (
   </p>
 );
 
+const rapply_description = (
+  <p className="font-calibre text-slate-500 dark:text-slate-300">
+    The All-In-One Job Hunting Assistant that aims to simplify and streamline
+    the job search by offering a comprehensive solution that combines an{" "}
+    <span className={span_class}>Application Tracker</span>,{" "}
+    <span className={span_class}>Personalized Cover Letter Generator</span>, and
+    a <span className={span_class}>Resume Builder</span>.
+  </p>
+);
+
 const bazinga_description = (
   <p className="font-calibre text-slate-500 dark:text-slate-300">
     A <span className={span_class}>chat</span> app, built from scratch with{" "}
@@ -323,6 +334,15 @@ const project_data = [
     ["React", "Express", "Node.js", "MongoDB", "Chakra UI", "Imagekit"],
     "https://github.com/MahirMahdi/PlataServ/tree/v2.0",
     "https://plataserv.netlify.app/"
+  ),
+  new Project(
+    true,
+    "Rapply",
+    rapplyImage,
+    rapply_description,
+    ["React", "Refine", "Appwrite", "Material UI", "OpenAI API"],
+    "https://github.com/MahirMahdi/Rapply",
+    "https://rapply.vercel.app/"
   ),
   new Project(
     true,
